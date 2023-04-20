@@ -1,0 +1,130 @@
+.contact {
+  padding-bottom: 180px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    text-align: left;
+  }
+
+  .title {
+    margin-bottom: 6px;
+  }
+
+  .text {
+    max-width: 300px;
+    margin-bottom: 25px;
+    color: $primary-color;
+  }
+
+  .bottom-line {
+    margin: 0 0 10px;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  &__form {
+    border: 1px solid $primary-color;
+    padding: 57px 55px 35px;
+
+    .link {
+      border: none;
+      border-radius: 20px 20px 20px 0;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+
+  &__name {
+    width: 700px;
+    display: block;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid $black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: $black;
+
+    &::placeholder {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 27px;
+      color: $primary-color;
+    }
+
+    &:active {
+      outline: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__email {
+    width: 700px;
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid $black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: $black;
+
+    &::placeholder {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 27px;
+      color: $primary-color;
+    }
+
+    &:active {
+      outline: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__send {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  &__description {
+    width: 400px;
+    height: 90px;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: $black;
+
+    &::placeholder {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 27px;
+      color: $primary-color;
+    }
+
+    &:active {
+      outline: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

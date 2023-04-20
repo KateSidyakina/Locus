@@ -1,0 +1,15 @@
+.title {
+  color: $dark-grey;
+
+  &--lg {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 65px;
+  }
+
+  &--sm {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+}

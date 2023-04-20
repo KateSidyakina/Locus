@@ -1,0 +1,17 @@
+.mission {
+  display: flex;
+  justify-content: space-between;
+  
+  .title {
+    max-width: 300px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .text {
+    margin: 0;
+    max-width: 480px;
+    text-align: left;
+    color: $primary-color;
+  }
+}

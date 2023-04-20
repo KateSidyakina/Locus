@@ -1,0 +1,16 @@
+.link {
+  display: inline-block;
+  padding: 17px 65px;
+  border-radius: 15px;
+  background-color: $dark-green;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: $white;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $light-green;
+    color: $dark-green;
+  }
+}

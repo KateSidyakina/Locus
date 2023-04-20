@@ -1,0 +1,61 @@
+.video {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+
+  img {
+    flex-grow: 1;
+  }
+
+  &__info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 50px 81px 69px 90px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: $light-green;
+
+    .text {
+      margin-bottom: 25px;
+      text-align: left;
+      color: $primary-color;
+    }
+  }
+
+  &__play {
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+    transform: translateX(-50%);
+
+    img {
+      transition: 0.3s;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
+
+  &__link {
+    width: fit-content;
+    padding: 8px;
+    border: 2px solid transparent;
+    margin-left: -8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: $primary-color;
+    transition: 0.3s;
+
+    &:hover {
+      margin-left: 0;
+      border: 2px solid $primary-color;
+    }
+  }
+}

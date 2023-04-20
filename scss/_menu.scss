@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+
+  &__item {
+    margin-right: 86px;
+    transition: 0.3s;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      margin: 3px auto 0;
+      border-radius: 21px;
+      background-color: transparent;
+      width: 35px;
+      height: 3px;
+      transition: 0.3s;
+    }
+
+    &:hover {
+      .menu__link {
+        color: $dark-green;
+      }
+
+      &::after {
+        background-color: $orange;
+      }
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 17px;
+    color: $light-grey;
+    transition: 0.3s;
+  }
+}

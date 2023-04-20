@@ -1,0 +1,11 @@
+.bottom-line {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100px;
+  height: 3px;
+  background-color: $dark-green;
+
+  &:last-of-type {
+    margin: 0 auto 70px;
+  }
+}

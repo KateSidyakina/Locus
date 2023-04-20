@@ -1,0 +1,56 @@
+.results {
+  display: flex;
+  align-items: center;
+  height: 587px;
+
+  img {
+    flex-grow: 1;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 50px 150px 50px 150px;
+    background-color: $light-green;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    list-style-type: none;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__number {
+    font-size: 50px;
+    font-weight: 800;
+    color: $dark-green;
+  }
+
+  &__name {
+    font-size: 20px;
+    font-weight: 600;
+    color: $dark-green;
+  }
+
+  .text {
+    display: block;
+    max-width: 510px;
+    margin-bottom: 30px;
+    color: $primary-color;
+  }
+
+  &__quoter {
+    font-weight: 500;
+    font-style: italic;
+    color: $dark-green;
+  }
+}

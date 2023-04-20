@@ -1,0 +1,20 @@
+.text {
+  color: $light-grey;
+
+  &--lg {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  &--md {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+
+  &--sm {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+}

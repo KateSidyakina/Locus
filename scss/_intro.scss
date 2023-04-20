@@ -1,0 +1,31 @@
+.intro {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__info .title {
+    margin-bottom: 30px;
+    max-width: 420px;
+  }
+
+  &__info .text {
+    margin-bottom: 30px;
+    max-width: 441px;
+  }
+
+  &__info .link {
+    border-radius: 20px 20px 20px 0;
+    font-weight: 700;
+  }
+
+  img {
+    display: block;
+  }
+}
